@@ -522,3 +522,31 @@ nav ul li a:hover {
         margin: 10px 0;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .main-text h1 {
+        font-size: 24px;
+    }
+
+    .menu-cart {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .galery-cart {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer-item {
+        margin: 5px 0;
+    }
+}
